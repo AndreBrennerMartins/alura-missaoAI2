@@ -27,7 +27,7 @@ body{
     padding: 20px;
 }
 
-h1, .boxquest, .boxres{
+h1, .boxquest, .boxresul{
     font-family: 'Intel', sans-serif;
 }
 
@@ -48,14 +48,14 @@ button:hover {
     color: var(--notmain);
 }
 
-.boxres{
+.boxresul{
     display: none;
 }
-.boxres.show{
+.boxresul.show{
     display: block;
 }
 
-.boxask{
+.boxansw{
     display: flex;
     flex-direction: column;
     gap: 10px;
